@@ -22,3 +22,11 @@ FOUNDATION_EXPORT const unsigned char MinizipVersionString[];
 #import <Minizip/ioapi_mem.h>
 #import <Minizip/unzip.h>
 #import <Minizip/zip.h>
+#import <Minizip/NSDataGZipAdditions.h>
+
+#import <Minizip/FileInZipInfo.h>
+#import <Minizip/ZipException.h>
+#import <Minizip/ZipFile.h>
+#import <Minizip/ZipReadStream.h>
+#import <Minizip/ZipWriteStream.h>
+
