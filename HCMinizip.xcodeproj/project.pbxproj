@@ -74,10 +74,10 @@
 		117166251CD1C569005F354F /* ZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 117165F31CD1C569005F354F /* ZipWriteStream.m */; };
 		117166261CD1C569005F354F /* ZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 117165F31CD1C569005F354F /* ZipWriteStream.m */; };
 		117166271CD1C569005F354F /* ZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 117165F31CD1C569005F354F /* ZipWriteStream.m */; };
-		8687AEEC1C66F322005D9419 /* HCMinizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AEEB1C66F322005D9419 /* HCMinizip.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8687AF271C66F40B005D9419 /* HCMinizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AEEB1C66F322005D9419 /* HCMinizip.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8687AF281C66F40B005D9419 /* HCMinizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AEEB1C66F322005D9419 /* HCMinizip.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8687AF291C66F40C005D9419 /* HCMinizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AEEB1C66F322005D9419 /* HCMinizip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8687AEEC1C66F322005D9419 /* Minizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AEEB1C66F322005D9419 /* Minizip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8687AF271C66F40B005D9419 /* Minizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AEEB1C66F322005D9419 /* Minizip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8687AF281C66F40B005D9419 /* Minizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AEEB1C66F322005D9419 /* Minizip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8687AF291C66F40C005D9419 /* Minizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AEEB1C66F322005D9419 /* Minizip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8687AF741C66F4B3005D9419 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF451C66F4B3005D9419 /* crypt.h */; };
 		8687AF751C66F4B3005D9419 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 8687AF461C66F4B3005D9419 /* ioapi.c */; };
 		8687AF761C66F4B3005D9419 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 8687AF471C66F4B3005D9419 /* ioapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -145,7 +145,7 @@
 		117165F21CD1C569005F354F /* ZipWriteStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipWriteStream.h; sourceTree = "<group>"; };
 		117165F31CD1C569005F354F /* ZipWriteStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipWriteStream.m; sourceTree = "<group>"; };
 		8687AEE81C66F322005D9419 /* HCMinizip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HCMinizip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8687AEEB1C66F322005D9419 /* HCMinizip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCMinizip.h; sourceTree = "<group>"; };
+		8687AEEB1C66F322005D9419 /* Minizip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Minizip.h; sourceTree = "<group>"; };
 		8687AEED1C66F322005D9419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8687AF051C66F351005D9419 /* HCMinizip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HCMinizip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8687AF121C66F35A005D9419 /* HCMinizip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HCMinizip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -251,7 +251,7 @@
 		8687AEEA1C66F322005D9419 /* Minizip */ = {
 			isa = PBXGroup;
 			children = (
-				8687AEEB1C66F322005D9419 /* HCMinizip.h */,
+				8687AEEB1C66F322005D9419 /* Minizip.h */,
 				8687AEED1C66F322005D9419 /* Info.plist */,
 				86EEC71B1C66F67A0052000B /* Minizip.xcconfig */,
 				86EEC7191C66F67A0052000B /* iphoneos.modulemap */,
@@ -320,7 +320,7 @@
 				117165F41CD1C569005F354F /* NSDataGZipAdditions.h in Headers */,
 				8687AF881C66F4B3005D9419 /* unzip.h in Headers */,
 				8687AF761C66F4B3005D9419 /* ioapi.h in Headers */,
-				8687AEEC1C66F322005D9419 /* HCMinizip.h in Headers */,
+				8687AEEC1C66F322005D9419 /* Minizip.h in Headers */,
 				8687AF8A1C66F4B3005D9419 /* zip.h in Headers */,
 				8687AF781C66F4B3005D9419 /* ioapi_buf.h in Headers */,
 			);
@@ -341,7 +341,7 @@
 				117165F51CD1C569005F354F /* NSDataGZipAdditions.h in Headers */,
 				8687AFC41C66F4E2005D9419 /* ioapi_mem.h in Headers */,
 				8687AFC21C66F4E2005D9419 /* ioapi.h in Headers */,
-				8687AF271C66F40B005D9419 /* HCMinizip.h in Headers */,
+				8687AF271C66F40B005D9419 /* Minizip.h in Headers */,
 				8687AFC51C66F4E2005D9419 /* unzip.h in Headers */,
 				8687AFC31C66F4E2005D9419 /* ioapi_buf.h in Headers */,
 			);
@@ -362,7 +362,7 @@
 				117165F61CD1C569005F354F /* NSDataGZipAdditions.h in Headers */,
 				8687AFD61C66F4E3005D9419 /* ioapi_mem.h in Headers */,
 				8687AFD41C66F4E3005D9419 /* ioapi.h in Headers */,
-				8687AF281C66F40B005D9419 /* HCMinizip.h in Headers */,
+				8687AF281C66F40B005D9419 /* Minizip.h in Headers */,
 				8687AFD71C66F4E3005D9419 /* unzip.h in Headers */,
 				8687AFD51C66F4E3005D9419 /* ioapi_buf.h in Headers */,
 			);
@@ -383,7 +383,7 @@
 				117165F71CD1C569005F354F /* NSDataGZipAdditions.h in Headers */,
 				8687AFE81C66F4E3005D9419 /* ioapi_mem.h in Headers */,
 				8687AFE61C66F4E3005D9419 /* ioapi.h in Headers */,
-				8687AF291C66F40C005D9419 /* HCMinizip.h in Headers */,
+				8687AF291C66F40C005D9419 /* Minizip.h in Headers */,
 				8687AFE91C66F4E3005D9419 /* unzip.h in Headers */,
 				8687AFE71C66F4E3005D9419 /* ioapi_buf.h in Headers */,
 			);
