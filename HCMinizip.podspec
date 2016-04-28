@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HCMinizip"
-  s.version      = "1.2.4"
+  s.version      = "1.2.5"
   s.summary      = "forked from dexman/Minizip."
 
   s.description  = <<-DESC
@@ -96,7 +96,7 @@ s.exclude_files = "Vendor/**/iowin32.{h,m,c}","Vendor/**/miniunz.*","Vendor/**/m
 
    s.requires_arc = true
 
-   s.xcconfig = { "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => "YES" }
+   s.xcconfig = { "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => "YES","DEFINES_MODULE" =>"YES" }
   # s.dependency "JSONKit", "~> 1.4"
 
 end
