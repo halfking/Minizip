@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HCMinizip"
-  s.version      = "1.2.5"
+  s.version      = "1.2.6"
   s.summary      = "forked from dexman/Minizip."
 
   s.description  = <<-DESC
