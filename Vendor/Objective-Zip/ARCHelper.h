@@ -7,7 +7,7 @@
 //  Copyright 2012 Charcoal Design
 //
 //  Distributed under the permissive zlib license
-//  Get the latest version from here:
+//  Get the latest version from here: adf
 //
 //  https://gist.github.com/1563325
 //
